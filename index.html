@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Elite&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 
     <title>Document</title>
@@ -332,9 +332,9 @@ x
       <div class="head">
         <h3 class="heading">testimonials...</h3>
       </div>
-      <div class="review-slider">
-        <div class="wrapper">
-          <div class="slider">
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div class="box">
               <img src="media/pexels-photo-1622817.jpeg" alt="">
               <h3>Midas</h3>
@@ -350,24 +350,7 @@ x
             </div>
           </div>
 
-          <div class="slider">
-            <div class="box">
-              <img src="media/pexels-photo-1622817.jpeg" alt="">
-              <h3>Midas</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illum at, voluptatum, exercitationem doloribus, distinctio quo nemo molestias nihil sequi accusamus. Hic ut saepe magni perferendis unde ipsum quisquam repudiandae.</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-
-              </div>
-            </div>
-          </div>
-
-
-          <div class="slider">
+          <div class="swiper-slide">
             <div class="box">
               <img src="media/pexels-photo-1622817.jpeg" alt="">
               <h3>Midas</h3>
@@ -384,7 +367,7 @@ x
           </div>
 
 
-          <div class="slider">
+          <div class="swiper-slide">
             <div class="box">
               <img src="media/pexels-photo-1622817.jpeg" alt="">
               <h3>Midas</h3>
@@ -401,7 +384,7 @@ x
           </div>
 
 
-          <div class="slider">
+          <div class="swiper-slide">
             <div class="box">
               <img src="media/pexels-photo-1622817.jpeg" alt="">
               <h3>Midas</h3>
@@ -418,7 +401,7 @@ x
           </div>
 
 
-          <div class="slider">
+          <div class="swiper-slide">
             <div class="box">
               <img src="media/pexels-photo-1622817.jpeg" alt="">
               <h3>Midas</h3>
@@ -435,7 +418,23 @@ x
           </div>
 
 
-          <div class="slider">
+          <div class="swiper-slide">
+            <div class="box">
+              <img src="media/pexels-photo-1622817.jpeg" alt="">
+              <h3>Midas</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus illum at, voluptatum, exercitationem doloribus, distinctio quo nemo molestias nihil sequi accusamus. Hic ut saepe magni perferendis unde ipsum quisquam repudiandae.</p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
             <div class="box">
               <img src="media/pexels-photo-1622817.jpeg" alt="">
               <h3>Midas</h3>
@@ -455,6 +454,92 @@ x
       
     </section>
     <!-- review section ends -->
+
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <div class="head">
+        <h3 class="heading">contact us...</h3>
+      </div>
+      <div class="row">
+        <div class="image">
+          <img src="media/pexels-photo-1936154.jpeg" alt="">
+        </div>
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+          </div>
+          <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" value="send message">
+        </form>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+
+    <!-- brand section starts -->
+    <section class="swiper-container  brand-slider">
+      <div class="brand-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="media/flat-design-ninja-logo-template_23-2149017450.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/coffee-shop-badge-vintage-style_1176-95.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/creative-barbecue-logo-template_23-2149012970.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/foodies-typography-logo-label-healthy-food_106244-165.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/global-logo_2175-137.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/good-food-logo-design_79169-10.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- brand section ends -->
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+     <div class="box-container">
+      <div class="box">
+        <h3>about us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos sit quae, ullam similique nobis minima ipsum. Tenetur officia esse similique.</p>
+
+      </div>
+      <div class="box">
+        <h3>branch locations</h3>
+        <a href="">Lagos</a>
+        <a href="">Cape-town</a>
+        <a href="">Nairobi</a>
+        <a href="">Cairo</a>
+      </div>
+      <div class="box">
+        <h3>connect with us</h3>
+        <a href="">twitter</a>
+        <a href="">facebook</a>
+        <a href="">instagram</a>
+        <a href="">linkedin</a>
+      </div>
+
+     
+     </div>
+     <h1 class="credit">created by <span>Midas</span> |all rights reserved!</h1>
+    </section>
+
+
+    <!-- footer section ends -->
 
 
    
@@ -481,7 +566,7 @@ x
 
 
     
-   
+         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
          <script src="script.js"></script> 
 </body>
 </html>
