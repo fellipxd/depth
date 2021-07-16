@@ -276,7 +276,7 @@ header .search-bar-container label:hover{
 
 body{
     background: black;
-    font-family: 'Special Elite', cursive;
+     font-family: 'Encode Sans SC';
 }
 
 .home{
@@ -322,7 +322,7 @@ body{
 }
 
 .heading{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Zen Tokyo Zoo';
     color: #fff;
     font-size: 3.5rem;
     text-align: center;
